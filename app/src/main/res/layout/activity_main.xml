@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:tooltipText="Enter number"
+        android:layout_marginTop="280dp"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNumber"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnStart"
+        android:text="Start"
+        android:textSize="25sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btnCancel"
+        android:layout_below="@id/btnStart"
+        android:textSize="25sp"
+        android:text="Cancel"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
